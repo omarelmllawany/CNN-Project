@@ -1,2 +1,18 @@
-# CNN-Project
-A satellite image classification system using a custom CNN and Vision Transformer, both manually implemented from scratch with attention modules. Classifies 10 land-use types using EuroSAT dataset, featuring complete training pipeline and dual-model prediction support.
+# مشروع تصنيف صور الأقمار الصناعية باستخدام CNN وTransformer
+
+## نظرة عامة
+هذا المشروع يهدف إلى بناء نظام لتصنيف صور الأقمار الصناعية باستخدام نموذجين عصبيين مختلفين يتم تنفيذهما يدوياً من الصفر:
+1. **Custom CNN**: شبكة عصبية تلافيفية مخصصة مع وحدات انتباه
+2. **Vision Transformer**: محول رؤية مع انتباه متعدد الرؤوس
+
+## المميزات
+- ✅ تنفيذ يدوي كامل بدون مكتبات جاهزة
+- ✅ نموذجان مختلفان (CNN + Transformer)
+- ✅ وحدات انتباه مبرمجة يدوياً
+- ✅ بيانات معقدة (EuroSAT - صور أقمار صناعية)
+- ✅ تدريب وتقييم كامل
+- ✅ دعم التوقع باستخدام نموذج واحد أو كلا النموذجين
+
+## المتطلبات
+```bash
+pip install -r requirements.txt
